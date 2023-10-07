@@ -1,0 +1,104 @@
+
+.img-fluid {
+width:100% !important;
+height:100% !important;
+object-fit: fill !important;
+position:unset !important;
+margin-top: auto;
+}
+
+body { font-family: 'BioRhyme', serif; 
+background-color:#f3bcff;
+}
+
+head {font-family: 'Times New Roman', Times, serif, sans-serif;}
+
+.nosotros{
+  background: #f3bcff;
+  margin-top: 20px;
+  padding: auto ;
+  text-align: end;
+}
+
+.ellos{
+  margin-top: auto;
+  background-color: #f3bcff;
+}
+
+.card-text{
+  text-align: center;
+}
+
+.tarjeta{
+text-align: left;
+
+}
+.card-group{
+  margin-top: 25px;
+}
+
+.bienvenida{
+  text-align: justify;
+}
+
+.text-center{
+  text-align: justify;
+  margin-bottom: 20px;
+  margin-top: 25px;
+}
+
+.card-title{
+  margin-top: 25px;
+}
+
+.carousel-inner {
+  width:768;
+  height: 400px;
+ justify-content: center;
+}
+
+
+.col-md-4{
+  margin-top: auto;
+  background-color: #f3bcff;
+}
+
+.col-md-6{
+  margin-top:0%;
+}
+
+ .bigicon {
+    font-size: 35px;
+    color: black
+}
+
+.piedepagina {
+  text-align: center;
+  padding: 3px;
+  color: black;
+  width: 100%;
+}
+@media screen and (min-width: 50%) {
+.carousel-inner{
+  width:auto;
+  height:auto;
+}
+}
+
+.formulario-container-fluid {
+  display:flex;
+  align-items: center;
+}
+
+.encabezado{
+  float: center ;
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 20px;
+}
+
+.form-horizontal{
+  align-items: left;
+  margin-top: 20px;
+  padding-top: 0px;
+}
